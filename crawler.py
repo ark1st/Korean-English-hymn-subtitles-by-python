@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 import requests
 from bs4 import BeautifulSoup
-j=595
-error=[]
+j=595 #n장부터 시작
+error=[] #에러 저장
 for x in range(j-1, 645):
     i = 2746-x
     wraped_list=[]
